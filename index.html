@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Websuite</title>
+  <!--Bootstrap Cdn link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <!--icon cdn link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+</head>
+
+<body>
+  <!-- Nav Section Start Here -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Brand Name -->
+      <a class="navbar-brand" href="index.html">
+        <span style="color: rgb(211, 54, 128);"><b>Fatema Akter Lima</b></span>
+      </a>
+
+      <!-- Toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Centered Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#expert">Expert</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#skill">Skill</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#contactmeeee">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--about me-->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6">
+          <div class="mt-3 py-2">
+            <h3><span style="color: rgb(74, 208, 37);">Hello I am</span> </h3><br>
+            <h1><span style="color: blue;">Fatema Akter Lima </span></h1>
+            <p>Currently a student of the <span style="color: rgb(235, 111, 58);">CSE Department at Dhaka International
+                University</span>, I am passionate about technology and innovation. With a keen interest in web design
+              and
+              development, I am constantly honing my skills to create impactful digital solutions. My goal is to combine
+              creativity and technical expertise to contribute to the ever-evolving field of computer science."</p><br>
+            <button class="btn btn-success "><a href="https://www.facebook.com/fatemaaktar.lima.94?mibextid=ZbWKwL"
+                class="text-white">My Facebook Id</a></button>
+
+          </div>
+        </div>
+        <div class="col-6">
+          <img src="./picture/Lima.jpeg" class="w-100 rounded-circle mt-5" alt="Mypic">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Education Section-->
+  <section class="education py-5" id="education">
+    <div class="container">
+      <h2 class="text-center mb-4 border-bottom">Educational Qualifications</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+          <thead class="table-info">
+            <tr class="text-center">
+              <th>Degree</th>
+              <th>Institute</th>
+              <th>Passing Year</th>
+              <th>Board</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>JSC</td>
+              <td>Batajore B.M High School </td>
+              <td>2015</td>
+              <td>Dhaka</td>
+              <td>5.00</td>
+            </tr>
+            <tr>
+              <td>SSC</td>
+              <td>Batajore B.M High School</td>
+              <td>2018</td>
+              <td>Dhaka</td>
+              <td> 5.00</td>
+            </tr>
+            <tr>
+              <td>HSC</td>
+              <td>Shahid Sayed Nazrul Islam Collage,Mymensingh</td>
+              <td>2020</td>
+              <td>Dhaka</td>
+              <td>5.00</td>
+            </tr>
+            <tr>
+              <td>BSc</td>
+              <td>Dhaka International University</td>
+              <td>2024</td>
+              <td>Dhaka</td>
+              <td>CGPA 3.40</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!--  Expert Start Here -->
+  <section id="expert">
+    <div class="services py-5" id="service">
+      <div class="container">
+        <h2 class="text-center border-bottom pb-2">Expert Me</h2>
+        <div class="row g-4">
+          <!-- Web Develop Card -->
+          <div class="col-md-4">
+            <div class="card h-100 w-100 text-center ">
+              <div class="card-body">
+                <div class="mb-3">
+                  <i class="fa-solid fa-code fa-2x text-primary"></i><br>
+                  <img src="./picture/web pic 1.jpeg" alt="" class="w-100 mt-2">
+                </div>
+                <h5 class="card-title">Web Develop</h5>
+                <p class="card-text">
+                  I am passionate about building dynamic, responsive, and user-friendly websites.
+                  <br><strong>Skills:</strong>
+                  Front-End Development (HTML5, CSS3, JS, React), Back-End (Node.js, MongoDB), Responsive Design.
+                  <br>Version Control: Git & GitHub.
+                </p><br>
+                <a href="#" class="btn btn-primary" onclick="webdesign()">Click Me</a>
+              </div>
+            </div>
+          </div>
+          <!-- Teaching  Card -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center webcolor">
+              <div class="card-body">
+                <div class="mb-3">
+                  <i class="fa-solid fa-file-code fa-2x text-success"></i>
+                  <img src="./picture/teaching.png" class="w-100 mt-2 ">
+                </div>
+                <h5 class="card-title">As a Teacher</h5>
+                <p>"A passionate educator dedicated to inspiring learning and growth. Skilled in creating engaging
+                  lessons
+                  and fostering a positive environment for students to excel." </p><br><br>
+
+                <a href="#" class="btn btn-success" onclick="Teaching()">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Freelancer -->
+          <div class="col-md-4">
+            <div class="card h-100 text-center webcolor">
+              <div class="card-body">
+                <div class="mb-3">
+                  <i class="fa-solid fa-laptop-code fa-2x text-warning"></i>
+                  <img src="./picture/webpic2.jpeg" class="w-100 mt-2 ">
+                </div>
+                <h5 class="card-title">Freelancer</h5>
+                <p class="card-text">
+                  "A skilled freelancer specializing in delivering creative and professional solutions. Committed to
+                  quality, timely delivery, and exceeding client expectations."
+                </p> <br><br><br><br>
+                <a href="#" class="btn btn-success" onclick="webdevelop()">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Skill Section-->
+  <section id="skill">
+    <div class="container">
+      <h2 class="text-center md-4 border-bottom"> My Skill</h2>
+      <div class="row">
+        <div class="col-3">
+          <h5>Ms Word</h5>
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width: 90%">90%</div>
+          </div>
+
+        </div>
+
+        <div class="col-3">
+          <h5>Excel</h5>
+          <div class="progress">
+            <div class="progress-bar bg-info" style="width: 80%">80%</div>
+          </div>
+
+        </div>
+        <div class="col-3">
+          <h5>HTML</h5>
+          <div class="progress">
+            <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+          </div>
+
+        </div>
+        <div class="col-3">
+          <h5>CSS</h5>
+          <div class="progress">
+            <div class="progress-bar bg-primary" style="width: 70%">70%</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Me-->
+  <section id="contactmeeee">
+    <div class="container">
+      <div class="text-center mb-3 mt-2 shadow-sm p-5">
+        <h2>Contact me</h2>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8 rounded">
+          <form id="contactForm">
+            <div class="row">
+              <div class="col mb-3">
+                <label class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" required>
+              </div>
+              <div class="col mb-3">
+                <label class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col mb-3 mt-2">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="col mb-3">
+                <label class="form-label">Phone number</label>
+                <input type="tel" class="form-control" id="phone" required>
+              </div>
+            </div>
+            <div class="col mb-3">
+              <label class="form-label">Choose a topic</label>
+              <select class="form-select" id="topic" required>
+                <option value="">Select one...</option>
+                <option>Dhaka</option>
+                <option>Chattogram</option>
+                <option>Barishal</option>
+                <option>Khulna</option>
+                <option>Rajshahi</option>
+                <option>Rangpur</option>
+                <option>Mymensingh</option>
+                <option>Sylhet</option>
+              </select>
+            </div>
+            <div class="mb-3 mt-1">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" id="message" placeholder="Write your message" rows="6" required></textarea>
+            </div>
+            <div class="mb-3 mt-2">
+              <input type="checkbox" id="terms" required>
+              <label for="terms">I accept the terms</label>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-success rounded-1">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 ">
+            <h2 class="text-warning">Fatema Akter Lima</h2>
+            <p class="text-primary">"Fatema Akter Lima | CSE Student at Dhaka International University | Passionate
+              about
+              technology,
+              innovation, and
+              continuous learning | Focused on building a bright future in the field of computer science."</p>
+
+          </div>
+          <div class="col-md-4">
+            <h3 style="color: rgb(39, 181, 186);"><u>link</u></h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none text-dark">Home</a></li>
+              <li><a href="#" class="text-decoration-none text-dark">About Me</a></li>
+              <li><a href="#" class="text-decoration-none text-dark">Education</a></li>
+              <li><a href="#" class="text-decoration-none text-dark">Expert</a></li>
+              <li><a href="#" class="text-decoration-none text-dark">skills</a></li>
+              <li><a href="#" class="text-decoration-none text-dark">Contact Me</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <div>
+              <h3>Legal</h3>
+              <ul class="list-unstyled lh-lg">
+                <li><a href="#" class="lh-1">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h3>Social Media</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://www.facebook.com/fatemaaktar.lima.94?mibextid=ZbWKwL"><i
+                    class="bi bi-facebook"></i></a></li>
+              <li><a href="https://www.tiktok.com/explore"><i class="bi bi-tiktok"></i></a></li>
+              <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+    <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+    <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+
+
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
